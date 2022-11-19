@@ -1,0 +1,31 @@
+events {
+
+}
+
+http {
+    include       mime.types;
+
+    server {
+        charset  utf-8;
+        
+        listen       80;
+        server_name  localhost;
+
+        access_log sites/modx/access.log;
+        error_log sites/modx/error.log;
+
+        root    C:/modx_nginx/nginx-1.22.0/sites/modx;
+
+        location / {
+            
+            index  index.html index.php index.htm; 
+        }
+
+        location ~ \.php$ {
+            fastcgi_pass 127.0.0.1:9999;
+            fastcgi_index index.php;
+            fastcgi_param  SCRIPT_FILENAME  $document_root$fastcgi_script_name;
+            include fastcgi_params;
+        }
+    }
+}

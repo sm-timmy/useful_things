@@ -1,0 +1,11 @@
+MODX
+modx-3.0.1-pl
+https://modx.com/download
+
+PHP
+php-8.1.8-Win32-vs16-x64
+https://windows.php.net/downloads/releases/
+
+NGINX
+nginx-1.22.0
+http://nginx.org/en/download.html
