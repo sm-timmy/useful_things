@@ -1,0 +1,14 @@
+<iframe
+	width="350"
+	height="290"
+	srcdoc="
+		<a href=//www.youtube.com/embed/XkldebRhIf8>
+		<img class='start-video' style='width:100%;height:100%;' src=//img.youtube.com/vi/XkldebRhIf8/hqdefault.jpg
+		alt='Превью трейлера'>
+		</a>
+	"
+	title="YouTube video player"
+	frameborder="0"
+	allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+	allowfullscreen>
+</iframe>
